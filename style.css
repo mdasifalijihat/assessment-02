@@ -127,108 +127,242 @@
   object-fit: cover;
 }
 
+main {
+  background-image: url("assets/bg.png");
+  max-width: 1440px;
+  margin: 0 auto;
+}
 /* Standard Curriculum style */
 .standar-section {
-  background-image: url("assets/bg.png");
   max-width: 1160px;
   margin: 0 auto;
 }
-.curriculm-title{
-    text-align: center;
-    font-size: 46px ;
-    margin: 60px auto;
+.curriculm-title {
+  text-align: center;
+  font-size: 46px;
+  margin: 60px auto;
 }
 
-.curriculum{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 28px;
+.curriculum {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
 }
 .curicu1 {
-   background-image: linear-gradient(180deg, skyblue, white);
-   background-position: center;
-   border: none;
-   border-radius: 12px;
-   display: grid;
-   justify-content: center;
-   justify-items: center;
-   padding: 12px 40px;
-   height: 467px;   
+  background-image: linear-gradient(180deg, skyblue, white);
+  background-position: center;
+  border: none;
+  border-radius: 12px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  padding: 12px 40px;
+  height: 467px;
 }
-.cur-img{
-    width: 136px;
-    height: 136px;
-    margin-top: 12px;
+.cur-img {
+  width: 136px;
+  height: 136px;
+  margin-top: 12px;
 }
-.curicu1-title{
-    font-size: 24px;
+.curicu1-title {
+  font-size: 24px;
 }
-.curicu1-descriptin{
-    color:#808080 ;
+.curicu1-descriptin {
+  color: #808080;
 }
-.curicu1-btn{
-    color: #64C8FF;
+.curicu1-btn {
+  color: #64c8ff;
 }
 /* second div */
-.curicu2{
-   background-image: linear-gradient(180deg, #FFF4DC, white);
-   background-position: center;
-   border: none;
-   border-radius: 12px;
-   display: grid;
-   justify-content: center;
-   justify-items: center;
-   padding: 12px 40px;
-   height: 467px;   
+.curicu2 {
+  background-image: linear-gradient(180deg, #fff4dc, white);
+  background-position: center;
+  border: none;
+  border-radius: 12px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  padding: 12px 40px;
+  height: 467px;
 }
-.cur-img{
-    width: 136px;
-    height: 136px;
-    margin-top: 12px;
+.cur-img {
+  width: 136px;
+  height: 136px;
+  margin-top: 12px;
 }
-.curicu2-title{
-    font-size: 24px;
+.curicu2-title {
+  font-size: 24px;
 }
-.curicu2-descriptin{
-    color:#808080 ;
+.curicu2-descriptin {
+  color: #808080;
 }
-.curicu2-btn{
-    color: orange;
+.curicu2-btn {
+  color: orange;
 }
 /* third div */
-.curicu3{
-    background-image: linear-gradient(180deg, #F2E8FF, white);
-    background-position: center;
-    border: none;
-    border-radius: 12px;
-    display: grid;
-    justify-content: center;
-    justify-items: center;
-    padding: 12px 40px;
-    height: 467px;   
- }
- .cur-img{
-     margin-top: 12px;
-     width: 136px;
-     height: 136px;
- }
- .curicu3-title{
-     font-size: 24px;
- }
- .curicu3-descriptin{
-     color:#808080 ;
- }
- .curicu3-btn{
-     color: #8700FF;
- }
+.curicu3 {
+  background-image: linear-gradient(180deg, #f2e8ff, white);
+  background-position: center;
+  border: none;
+  border-radius: 12px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  padding: 12px 40px;
+  height: 467px;
+}
+.cur-img {
+  margin-top: 12px;
+  width: 136px;
+  height: 136px;
+}
+.curicu3-title {
+  font-size: 24px;
+}
+.curicu3-descriptin {
+  color: #808080;
+}
+.curicu3-btn {
+  color: #8700ff;
+}
 
+/* arrow key */
+.curicun-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 60px auto;
+}
+.leftArrow {
+  background-color: orange;
+  border-radius: 100%;
+  padding: 12px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
 
+.img-arrow {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+/* out-stores */
+.out-section {
+  background-image: linear-gradient(180deg, #ffffff, rgba(254, 163, 1, 1));
+}
+.ouer-title {
+  display: flex;
+  font-size: 46px;
+  justify-content: center;
+  margin: 60px auto;
+}
+.our-card {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 18px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+.our-card1 {
+  background-color: white;
+  border-radius: 8px;
+  text-align: left;
+  width: 540px;
+  height: 630px;
+  overflow: hidden; 
+  position: relative; 
+}
+.our-card-img-container {
+  position: relative;
+}
+
+.our-card-img {
+  width: 100%;
+  height: auto; 
+  display: block; 
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card1-Btn {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 47px;
+  background-color: #3cd8e8;
+  color: white;
+  position: absolute;
+  transform: translateY(-50%);
+  left: 12px;
+  font-size: 14px;
+}
+
+.our-card1-title {
+  font-size: 20px;
+  margin: 36px 12px ;
+  font-weight: 700;
+  font-size: 24px;
+}
+.our-card1-description {
+  margin: 0 12px 12px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+/* card 2 design  */
+.our-card2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  width: 540px;
+  height: 630px;
+}
+
+.card2-img1 {
+  position: relative;
+  width: 100%;
+  height: 301px;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+}
+.card2-img1-img {
+  width: 290px;
+}
+.card2-img1-Btn {
+  border: none;
+  padding: 15px 19px;
+  border-radius: 47px;
+  background-color: #95b226;
+  color: white;
+  margin-left: 32px;
+  position: absolute;
+  transform: translateY(-50%);
+}
+.card2-img1-Btn2 {
+  border: none;
+  padding: 15px 19px;
+  border-radius: 47px;
+  background-color: #5d58f0;
+  color: white;
+  position: absolute;
+  transform: translateY(-50%);
+}
 
 /* Mobile Responsive Styling */
+
 @media screen and (max-width: 576px) {
   .nav-items,
   .nav-button,
-  .nav-text {
+  .nav-text,
+  .our-card1 {
     display: none;
   }
   .nav-logo {
@@ -272,11 +406,11 @@
     font-size: 18px;
     padding: 12px 36px;
   }
-  .curriculm-title{
+  .curriculm-title {
     font-size: 32px;
     margin: 30px auto;
   }
-  .curriculum{
+  .curriculum {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
@@ -284,26 +418,35 @@
   .curicu1,
   .curicu2,
   .curicu3 {
-    height: auto; 
-    padding: 20px 15px; 
+    height: auto;
+    padding: 20px 15px;
   }
   .cur-img {
-    width: 100px; 
+    width: 100px;
     height: 100px;
   }
   .curicu1-title,
   .curicu2-title,
   .curicu3-title {
-    font-size: 20px; 
+    font-size: 20px;
   }
   .curicu1-descriptin,
   .curicu2-descriptin,
   .curicu3-descriptin {
-    font-size: 14px; 
+    font-size: 14px;
   }
   .curicu1-btn,
   .curicu2-btn,
   .curicu3-btn {
-    font-size: 16px; 
+    font-size: 16px;
+  }
+  .curicun-arrow {
+    display: none;
+  }
+  .our-card2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 22px;
+    margin: 0 auto;
   }
 }
