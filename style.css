@@ -276,8 +276,8 @@ main {
   text-align: left;
   width: 540px;
   height: 630px;
-  overflow: hidden; 
-  position: relative; 
+  overflow: hidden;
+  position: relative;
 }
 .our-card-img-container {
   position: relative;
@@ -285,8 +285,8 @@ main {
 
 .our-card-img {
   width: 100%;
-  height: auto; 
-  display: block; 
+  height: auto;
+  display: block;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -305,7 +305,7 @@ main {
 
 .our-card1-title {
   font-size: 20px;
-  margin: 36px 12px ;
+  margin: 36px 12px;
   font-weight: 700;
   font-size: 24px;
 }
@@ -350,12 +350,75 @@ main {
   border: none;
   padding: 15px 19px;
   border-radius: 47px;
+  margin-left: 32px;
   background-color: #5d58f0;
   color: white;
   position: absolute;
   transform: translateY(-50%);
 }
+.card2-img1-title {
+  font-size: 16px;
+  padding: 16px;
+}
+.view-all {
+  padding-bottom: 12px;
+}
 
+.our-button {
+  display: flex;
+  font-size: 20px;
+  margin: 48px auto;
+  padding: 12px 60px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+
+/* footer */
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #01acfd;
+}
+.footer-design {  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  justify-content: center; 
+  justify-items: center;
+  padding: 122px 144px;
+  color: white;  
+}
+.footer-logo{
+    display: flex;
+    justify-items: center;
+    gap: 12px;
+}
+.footer-loogo{
+    width: 82px;
+    height: 82px;
+}
+.logo-dis{
+    font-size: 16px;
+}
+.footer-ul{
+text-decoration: none;
+list-style: none;
+gap: 12px;
+color: white;
+
+}
+.footer-li{
+list-style: none;
+gap: 12px;
+}
+
+.footer-a{
+text-decoration: none;
+list-style: none;
+color: white;
+margin-left: -26px;
+
+}
 /* Mobile Responsive Styling */
 
 @media screen and (max-width: 576px) {
@@ -410,7 +473,7 @@ main {
     font-size: 32px;
     margin: 30px auto;
   }
-  .curriculum {
+  .curriculum{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
@@ -446,7 +509,19 @@ main {
   .our-card2 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 22px;
+    gap: 16px;
     margin: 0 auto;
+  }
+
+  .card2-img1-Btn,
+  .card2-img1-Btn2 {
+    position: static;
+    transform: none;
+    margin: 8px 0;
+  }
+  .footer-design{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 384px;
   }
 }
