@@ -10,171 +10,300 @@
 /* navbar style */
 
 .header {
-    max-width: 1160px;
-    margin: 0 auto;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between; /* Align items */
+  align-items: center;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-img {
+  width: 60px;
+  height: 60px;
+}
+
+.nav-text {
+  font-size: 32px;
+}
+
+/* Navbar Links */
+.nav-items {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-link {
+  list-style: none;
+}
+
+.nav-links1 {
+  color: orange;
+  text-decoration: none;
+}
+
+.nav-links2 {
+  color: skyblue;
+  text-decoration: none;
+}
+
+.nav-links3 {
+  color: #05d4df;
+  text-decoration: none;
+}
+
+.nav-links4 {
+  color: #5d58ef;
+  text-decoration: none;
+}
+
+.nav-button {
+  border: none;
+  background-color: orange;
+  border-radius: 12px;
+  color: white;
+  padding: 12px 60px;
+}
+
+.nav-icon {
+  display: none;
+}
+
+/* nav banner */
+
+.nav-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.banner-heading {
+  height: 331px;
+}
+.banner-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 auto;
+}
+
+.text-orang {
+  color: orange;
+}
+
+.text-sky {
+  color: skyblue;
+}
+
+.banner-description {
+  font-size: 18px;
+  margin: 12px auto;
+}
+
+.banner-button {
+  border: none;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  padding: 10px 47px;
+  border-radius: 8px;
+}
+
+.banner-images {
+  width: 468px;
+  height: 575px;
+  object-fit: cover;
+}
+
+/* Standard Curriculum style */
+.standar-section {
+  background-image: url("assets/bg.png");
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.curriculm-title{
+    text-align: center;
+    font-size: 46px ;
+    margin: 60px auto;
+}
+
+.curriculum{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+.curicu1 {
+   background-image: linear-gradient(180deg, skyblue, white);
+   background-position: center;
+   border: none;
+   border-radius: 12px;
+   display: grid;
+   justify-content: center;
+   justify-items: center;
+   padding: 12px 40px;
+   height: 467px;   
+}
+.cur-img{
+    width: 136px;
+    height: 136px;
+    margin-top: 12px;
+}
+.curicu1-title{
+    font-size: 24px;
+}
+.curicu1-descriptin{
+    color:#808080 ;
+}
+.curicu1-btn{
+    color: #64C8FF;
+}
+/* second div */
+.curicu2{
+   background-image: linear-gradient(180deg, #FFF4DC, white);
+   background-position: center;
+   border: none;
+   border-radius: 12px;
+   display: grid;
+   justify-content: center;
+   justify-items: center;
+   padding: 12px 40px;
+   height: 467px;   
+}
+.cur-img{
+    width: 136px;
+    height: 136px;
+    margin-top: 12px;
+}
+.curicu2-title{
+    font-size: 24px;
+}
+.curicu2-descriptin{
+    color:#808080 ;
+}
+.curicu2-btn{
+    color: orange;
+}
+/* third div */
+.curicu3{
+    background-image: linear-gradient(180deg, #F2E8FF, white);
+    background-position: center;
+    border: none;
+    border-radius: 12px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding: 12px 40px;
+    height: 467px;   
+ }
+ .cur-img{
+     margin-top: 12px;
+     width: 136px;
+     height: 136px;
+ }
+ .curicu3-title{
+     font-size: 24px;
+ }
+ .curicu3-descriptin{
+     color:#808080 ;
+ }
+ .curicu3-btn{
+     color: #8700FF;
+ }
+
+
+
+/* Mobile Responsive Styling */
+@media screen and (max-width: 576px) {
+  .nav-items,
+  .nav-button,
+  .nav-text {
+    display: none;
   }
-  
-  .nav {
-    display: flex;
-    justify-content: space-between; /* Align items */
-    align-items: center;
-  }
-  
   .nav-logo {
-    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12px;
   }
-  
-  .nav-img {
-    width: 60px;
-    height: 60px;
-  }
-  
-  .nav-text {
-    font-size: 32px;
-  }
-  
-  /* Navbar Links */
-  .nav-items {
-    display: flex;
-    gap: 32px;
-  }
-  
-  .nav-link {
-    list-style: none;
-  }
-  
-  .nav-links1 {
-    color: orange;
-    text-decoration: none;
-  }
-  
-  .nav-links2 {
-    color: skyblue;
-    text-decoration: none;
-  }
-  
-  .nav-links3 {
-    color: #05D4DF;
-    text-decoration: none;
-  }
-  
-  .nav-links4 {
-    color: #5D58EF;
-    text-decoration: none;
-  }
-  
-  .nav-button {
-    border: none;
-    background-color: orange;
-    border-radius: 12px;
-    color: white;
-    padding: 12px 60px;
-  }
-  
+
   .nav-icon {
-    display: none; 
+    display: block;
+    cursor: pointer;
+    width: 30px;
+    font-size: 36px;
   }
-
-  /* nav banner */
-
+  .nav {
+    position: relative;
+    padding: 12px;
+    box-shadow: 0 4px orange;
+  }
   .nav-banner {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 8px;
     padding: 20px;
   }
-  
-  .banner-heading{
-    height: 331px;
-  }
+
   .banner-title {
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin: 0 auto;
+    font-size: 36px;
   }
-  
-  .text-orang {
-    color: orange;
-  }
-  
-  .text-sky {
-    color: skyblue;
-  }
-  
+
   .banner-description {
-    font-size: 18px;
-    margin: 12px auto;
+    font-size: 16px;
   }
-  
-  .banner-button {
-    border: none;
-    color: white;
-    background-color: black;
-    font-size: 20px;
-    padding: 10px 47px;
-    border-radius: 8px;
-  }
-  
+
   .banner-images {
-    width: 468px;
-    height: 575px;
-    object-fit: cover; 
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
   }
 
-
-  
-  /* Mobile Responsive Styling */
-  @media screen and (max-width: 576px) {
-    .nav-items, .nav-button, .nav-text {
-      display: none; 
-    }
-    .nav-logo {
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .nav-icon {
-      display: block; 
-      cursor: pointer;
-      width: 30px;
-      font-size: 36px; 
-    }
-    .nav {
-      position: relative;
-      padding: 12px;
-      box-shadow: 0 4px orange; 
-    }
-    .nav-banner {
-        flex-direction: column-reverse; 
-        text-align: center; 
-        gap: 8px;
-        padding: 20px;        
-      }
-    
-      .banner-title {
-        font-size: 36px;
-      }
-    
-      .banner-description {
-        font-size: 16px; 
-      }
-    
-      .banner-images {
-        width: 100%; 
-        height: auto; 
-        margin-bottom: 20px; 
-      }
-    
-      .banner-button {
-        font-size: 18px; 
-        padding: 12px 36px; 
-      }
-    
+  .banner-button {
+    font-size: 18px;
+    padding: 12px 36px;
   }
-  
+  .curriculm-title{
+    font-size: 32px;
+    margin: 30px auto;
+  }
+  .curriculum{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .curicu1,
+  .curicu2,
+  .curicu3 {
+    height: auto; 
+    padding: 20px 15px; 
+  }
+  .cur-img {
+    width: 100px; 
+    height: 100px;
+  }
+  .curicu1-title,
+  .curicu2-title,
+  .curicu3-title {
+    font-size: 20px; 
+  }
+  .curicu1-descriptin,
+  .curicu2-descriptin,
+  .curicu3-descriptin {
+    font-size: 14px; 
+  }
+  .curicu1-btn,
+  .curicu2-btn,
+  .curicu3-btn {
+    font-size: 16px; 
+  }
+}
