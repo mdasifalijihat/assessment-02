@@ -153,6 +153,7 @@ main {
   background-position: center;
   border: none;
   border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19) ;
   display: grid;
   justify-content: center;
   justify-items: center;
@@ -179,6 +180,7 @@ main {
   background-position: center;
   border: none;
   border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19) ;
   display: grid;
   justify-content: center;
   justify-items: center;
@@ -205,6 +207,7 @@ main {
   background-position: center;
   border: none;
   border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19) ;
   display: grid;
   justify-content: center;
   justify-items: center;
@@ -269,6 +272,7 @@ main {
   gap: 18px;
   margin: 0 auto;
   padding-bottom: 24px;
+  
 }
 .our-card1 {
   background-color: white;
@@ -278,6 +282,7 @@ main {
   height: 630px;
   overflow: hidden;
   position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19) ;
 }
 .our-card-img-container {
   position: relative;
@@ -289,6 +294,7 @@ main {
   display: block;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  
 }
 
 .card1-Btn {
@@ -332,6 +338,7 @@ main {
   background-color: white;
   color: black;
   overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19) ;
 }
 .card2-img1-img {
   width: 290px;
