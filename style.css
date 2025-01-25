@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.quicksand {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* navbar style */
+
+.header {
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between; /* Align items */
+    align-items: center;
+  }
+  
+  .nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .nav-img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .nav-text {
+    font-size: 32px;
+  }
+  
+  /* Navbar Links */
+  .nav-items {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .nav-link {
+    list-style: none;
+  }
+  
+  .nav-links1 {
+    color: orange;
+    text-decoration: none;
+  }
+  
+  .nav-links2 {
+    color: skyblue;
+    text-decoration: none;
+  }
+  
+  .nav-links3 {
+    color: #05D4DF;
+    text-decoration: none;
+  }
+  
+  .nav-links4 {
+    color: #5D58EF;
+    text-decoration: none;
+  }
+  
+  .nav-button {
+    border: none;
+    background-color: orange;
+    border-radius: 12px;
+    color: white;
+    padding: 12px 60px;
+  }
+  
+  .nav-icon {
+    display: none; 
+  }
+
+  /* nav banner */
+
+  .nav-banner {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+  }
+  
+  .banner-heading{
+    height: 331px;
+  }
+  .banner-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 auto;
+  }
+  
+  .text-orang {
+    color: orange;
+  }
+  
+  .text-sky {
+    color: skyblue;
+  }
+  
+  .banner-description {
+    font-size: 18px;
+    margin: 12px auto;
+  }
+  
+  .banner-button {
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px 47px;
+    border-radius: 8px;
+  }
+  
+  .banner-images {
+    width: 468px;
+    height: 575px;
+    object-fit: cover; 
+  }
+
+
+  
+  /* Mobile Responsive Styling */
+  @media screen and (max-width: 576px) {
+    .nav-items, .nav-button, .nav-text {
+      display: none; 
+    }
+    .nav-logo {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .nav-icon {
+      display: block; 
+      cursor: pointer;
+      width: 30px;
+      font-size: 36px; 
+    }
+    .nav {
+      position: relative;
+      padding: 12px;
+      box-shadow: 0 4px orange; 
+    }
+    .nav-banner {
+        flex-direction: column-reverse; 
+        text-align: center; 
+        gap: 8px;
+        padding: 20px;        
+      }
+    
+      .banner-title {
+        font-size: 36px;
+      }
+    
+      .banner-description {
+        font-size: 16px; 
+      }
+    
+      .banner-images {
+        width: 100%; 
+        height: auto; 
+        margin-bottom: 20px; 
+      }
+    
+      .banner-button {
+        font-size: 18px; 
+        padding: 12px 36px; 
+      }
+    
+  }
+  
